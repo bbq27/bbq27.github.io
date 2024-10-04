@@ -5,11 +5,75 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <nav></nav>
+    <nav class="navbar">
+      <h1 class="logo"><a href="index.html">Berfredd Quezon</a></h1>
+      <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
     <main>
-      <p>Hello World! This is my website.</p>
-      <p>This is a sentence.</p>s
+      <h1>Berfredd Quezon's Resume</h1>
+      
+      <section class="education">
+        <h2>Education</h2>
+        <div class="school">
+          <h3>California Polytechnic State University</h3>
+          <p><strong>Bachelor of Science in Computer Engineering</strong> - San Luis Obispo</p>
+          <p><em>Expected Graduation: June 2027</em></p>
+          <ul>
+            <li>Relevant Coursework: Data Structures, Digital Design, Project-Based Programming</li>
+            <li>Activities: Out in STEM, Alpha Phi Omega (Professional Service Fraternity)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="experience">
+        <h2>Experience</h2>
+        <div class="job">
+          <h3>Avionics Engineer</h3>
+          <p><strong>Cal Poly CubeSat Lab</strong> - San Luis Obispo</p>
+          <p><em>February 2024 - Present</em></p>
+          <ul>
+            <li>Executed test and bringup procedures for the System Board (command & data handling system), -Z board (communications system), and Ultra High Frequency Board (radio board)</li>
+            <li>Assisted in developing a power budgeting tool for a 3U CubeSat in a sun-sync orbit incorporating S/C passive stabilization and eclipse</li>
+          </ul>
+        </div>
+        <div class="job">
+          <h3>Resident Advisor</h3>
+          <p><strong>Cal Poly University Housing</strong> - San Luis Obispo</p>
+          <p><em>September 2024 - Present</em></p>
+          <ul>
+            <li>Overseeing the safety and well-being of 50+ residents by providing extensive knowledge of on-campus resources and planning monthly events promoting inclusivity</li>
+            <li>Managing and addressing 100+ student feedback messages each month and conducting administrative duties including incident reports, maintenance requests, and daily safety checks to ensure a positive living environment</li>
+          </ul>
+        </div>
+        <div class="job"></div>
+          <h3>Embedded Systems Research Assistant</h3>
+          <p><strong>Project OWL</strong> - San Luis Obispo</p>
+          <p><em>September 2024 - Present</em></p>
+          <ul>
+            <li>Partnered with OWL Integrations</li>
+            <li>Incorporated a Lime Mini 2.0 SDR, Semtech SX1262 and SX1276 LoRa Transceiver to explore modulation types with varying bandwidth and frequency agility</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Programming Languages: JavaScript, Python, C++, Java</li>
+          <li>Web Development: HTML, CSS, React, Node.js</li>
+          <li>Interests: Embedded Systems, Hardware Design & Testing, Computer Architecture, Device Drivers & Firmware, Software Engineering</li>
+        </ul>
+      </section>
+
+      <p>For more information, please visit my <span class="inline-container"><a href="https://www.linkedin.com/in/qberf" id="linkedin-link">LinkedIn</a></span> !</p>
     </main>
     <footer>Copyright ©2024 | All Rights Reserved.</footer>
+    <script src="scripts.js"></script>
   </body>
 </html>

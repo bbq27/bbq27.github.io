@@ -25,19 +25,106 @@ header {
     text-align: center;
 }
 
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--cg-black);
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+}
+
+.logo a {
+    color: var(--cg-white);
+    text-decoration: none;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--cg-black);
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+}
+
+.logo a {
+    color: var(--cg-white);
+    text-decoration: none;
+}
+
+/* Navigation list styling */
 .nav-list {
     list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
     padding: 0;
 }
 
 .nav-list li {
     display: inline;
-    margin: 0 15px;
 }
 
 .nav-list a {
     color: var(--cg-white);
     text-decoration: none;
+}
+
+/* Center the form container */
+#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Make form elements stack and add spacing */
+.form-element {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Center the footer text */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--cg-black);
+    color: var(--cg-white);
+}
+
+/* Experience, Education, and Skills section styling */
+.experience, .education, .skills {
+    margin: 20px 0;
+    text-align: left; /* Left justify the text */
+}
+
+.job, .school {
+    margin-bottom: 20px;
+}
+
+.job h3, .school h3 {
+    margin: 0;
+}
+
+.job p, .school p {
+    margin: 5px 0;
+}
+
+.job ul, .school ul, .skills ul {
+    margin: 10px 0 0 20px;
 }
 
 /* Main content styles */
@@ -55,7 +142,7 @@ main {
 
 .about-image img {
     height: 25%; 
-    /* border-radius: 10px; /* Optional: Set a smaller border-radius for rounded corners */
+    /* width: 25%; */
 }
 
 .about-text {
@@ -85,4 +172,44 @@ code {
     background-color: var(--cg-light-grey);
     padding: 5px;
     border-radius: 3px;
+}
+
+/* Center the form container */
+#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Make form elements stack and add spacing */
+.form-element {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inline-container {
+    display: inline;
+}
+
+/* Project image styling */
+.project-image {
+    transform: rotate(270deg); /* Rotate the image 90 degrees */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    width: 30%; /* Set the image width to 30% */
+}
+
+/* Portfolio page title styling */
+.page-title {
+    margin-bottom: 10px; /* Adjust this value as needed */
+    text-align: center;
+}
+
+/* Project container styling */
+.project {
+    margin-top: 0; /* Remove any top margin */
+    padding-top: 0; /* Remove any top padding */
 }
